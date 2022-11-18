@@ -1,0 +1,30 @@
+{
+  "name": "vsl-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilksamanta/vsl-auto-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilksamanta/vsl-auto-update/issues"
+  },
+  "homepage": "https://github.com/sunilksamanta/vsl-auto-update#readme",
+  "devDependencies": {
+    "electron": "^21.3.0",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0"
+  }
+}

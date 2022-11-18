@@ -1,0 +1,4 @@
+appId: com.vslmarine.app
+publish:
+  provider: github
+  token: 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
